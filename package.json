@@ -1,0 +1,74 @@
+{
+  "name": "mvp_v2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.5.5",
+    "@craco/craco": "^6.4.2",
+    "@ethersproject/bignumber": "^5.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^1.4.0",
+    "crypto": "^1.0.1",
+    "ethers": "^5.5.1",
+    "fs": "^0.0.1-security",
+    "graphql": "^16.0.1",
+    "path": "^0.12.7",
+    "ra-data-graphql": "^3.19.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-horizontal-scrolling-menu": "^2.7.0",
+    "react-modal": "^3.14.4",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.6",
+    "web-vitals": "^1.0.1",
+    "mongoose-sequence": "^5.3.1",
+    "node-cron": "^3.0.2",
+    "nodemon": "^2.0.9",
+    "tronweb": "^5.2.0",
+    "@solana/web3.js": "^1.44.0",
+    "bcrypt": "^5.0.1",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "ndb": "^1.1.5"
+  },
+  "scripts": {
+    "start": "craco start | node backend/index.js",
+    "front": "craco start",
+    "backend": "node backend/index.js",
+    "build": "craco --openssl-legacy-provider build",
+    "test": "craco --openssl-legacy-provider test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+  }
+}
